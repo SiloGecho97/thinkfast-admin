@@ -22,7 +22,8 @@ gem 'devise'
 gem 'avo'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem "importmap-rails"
+gem 'cssbundling-rails'
+gem 'importmap-rails'
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
@@ -31,8 +32,9 @@ gem "turbo-rails"
 gem "stimulus-rails"
 
 # Use Tailwind CSS [https://github.com/rails/tailwindcss-rails]
-gem "tailwindcss-rails"
-
+gem 'tailwindcss-rails', '~> 2.0'
+gem 'simple_form'
+gem 'simple_form-tailwind'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 

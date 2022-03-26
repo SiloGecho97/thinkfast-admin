@@ -19,7 +19,7 @@ ActiveRecord::Schema[7.0].define(version: 2022_03_21_185326) do
     t.boolean "correct"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.uuid "question_id"
+    t.bigint "question_id"
   end
 
   create_table "questions", force: :cascade do |t|

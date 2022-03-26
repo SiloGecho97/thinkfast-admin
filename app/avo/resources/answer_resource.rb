@@ -9,7 +9,7 @@ class AnswerResource < Avo::BaseResource
   field :id, as: :id, hide_on: [:index]
   field :title, as: :text
   field :correct, as: :boolean
-  field :question_id, as: :belongs_to
+  field :question, as: :belongs_to
 
   field :created_at, as: :date_time, readonly: true
   field :updated_at, as: :date_time, readonly: true

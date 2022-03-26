@@ -13,9 +13,13 @@ module.exports = {
       },
     },
   },
+  daisyui: {
+    themes: ["dark", "bumblebee"],
+  },
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/aspect-ratio'),
     require('@tailwindcss/typography'),
+    require('daisyui'),
   ]
 }
